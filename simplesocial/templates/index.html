@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="front">
+    <h1>Welcome to Star Social!</h1>
+    <p>Go ahead and join with people's like you</p>
+    {% if user.is_authenticated %}
+        <a class="postList" href="{% url 'posts:for_user' username=user.username %}">See all post of your's</a>
+    {% endif %}
+</div>
+{% endblock %}
