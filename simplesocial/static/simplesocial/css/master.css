@@ -1,0 +1,116 @@
+html,body {
+  overflow: auto;
+  margin: 0;
+  color: white;
+  height: 100%;
+  width: 100%;
+  background:-o-linear-gradient(top, #000, #257eb7);
+	background:-ms-linear-gradient(top, #000, #257eb7);
+	background:-moz-linear-gradient(top, #000, #257eb7);
+	background:-webkit-linear-gradient(top, #000, #021522);
+ 	background:linear-gradient(top, #000, #257eb7);	   
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorStr='#040429', EndColorStr='#257eb7');
+	-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorStr='#040429', EndColorStr='#257eb7')";
+  font-family: 'Russo One', sans-serif;
+}
+  
+.mynav{
+  font-size: 21px;
+}
+
+.navbar-brand, .navbar-nav>li>a{
+  text-shadow: none;
+}
+
+.nav li a:hover{
+  background-color: initial;
+}
+
+.mycontent{
+  background-color: teal;
+  width: 550px;
+  border-radius: 15px;
+  margin: 5px 150px 50px 60px;
+}
+
+canvas{
+  z-index: -1;
+}
+
+.front{
+  padding: 0px 2px 15px 40px;
+}
+
+.p_base{
+  padding: 20px 10px 20px 30px;
+  width: 500px;
+}
+
+.gForm{
+  width: 550px;
+  padding: 8px 70px 25px 30px;
+}
+.login{
+  width: 550px;
+  padding: 8px 80px 35px 40px;
+}
+
+.signup{
+  width: 550px;
+  padding: 8px 80px 35px 40px;
+}
+
+.uname{
+  color: skyblue;
+  text-decoration: underline;
+}
+
+.glyph{
+  margin-right: 10px;
+}
+
+.lGroup{
+  background-color: teal;
+  padding: 25px;
+}
+
+.list_group{
+  margin-left: 20px;
+  margin-right: 80px;
+}
+
+.list-group-item{
+  margin: 4px;
+  border-radius: 30px !important;  
+}
+
+.pDelete{
+  margin-top: 20px;
+}
+
+.btnDelete{
+  margin-top: 5px;
+}
+
+.pList{
+  padding: 0;
+  margin-left: 110px;
+}
+
+.gpDetail{
+  margin: 15px;
+}
+
+.gcDelete{
+  width: 500px;
+  padding-left: 10px;
+}
+
+.gDelete{
+  margin: 25px 0px 25px 10px;
+}
+
+.postList{
+  color: white;
+  text-decoration: underline;
+}

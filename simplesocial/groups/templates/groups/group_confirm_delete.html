@@ -1,0 +1,13 @@
+{% extends "groups/group_base.html" %}
+{% block group_content %}
+<div class="gcDelete">
+    <h1>Are you sure you want to delete {{group.name}} group?</h1>
+    <div class="gDelete">
+        <form method="POST">
+            {% csrf_token %}
+            <input type="submit" value="Confirm Delete" class="btn btn-danger btn-large">
+            <a class="btn btn-simple btn-large btn-default" href="{% url 'groups:all' %}">Cancel</a>
+        </form>
+    </div>
+</div>
+{% endblock %}
