@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-7$8n1*5t=tx=0m3^pdqduh#yk(r+p9a2saqzbhe*eq)6@l+*3h
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1',]
+ALLOWED_HOSTS = ['127.0.0.1','https://star-social-site.herokuapp.com/']
 
 
 # Application definition
@@ -125,6 +125,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [os.path.join(BASE_DIR,'static')]
+STATIC_ROOT = os.path.join(BASE_DIR,'static')
 
 LOGIN_REDIRECT_URL = 'test'
 LOGOUT_REDIRECT_URL = 'thanks'
