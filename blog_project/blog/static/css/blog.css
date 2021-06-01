@@ -1,0 +1,63 @@
+body{
+  background-image: linear-gradient(to right, #434343 0%, black 100%);
+  background-attachment:fixed;
+  background-repeat: no-repeat;
+}
+
+.techfont{
+    font-family: 'Russo One',sans-serif;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.bigbrand{
+    font-size: 1.5em;
+}
+
+.centerstage{
+  margin: auto;
+}
+
+.ind_block h1{
+  font-family: 'Newsreader', serif;
+}
+a{
+  color: black;
+}
+a:hover{
+  text-decoration: none;
+}
+
+.postdate{
+  text-align: center;
+}
+
+.posttitle{
+  font-family: 'Russo One',sans-serif;
+  font-size: 3em;
+  text-align: center;
+}
+
+.postcontent{
+  font-family: 'Montserrat';
+  font-size: 1.5em;
+}
+
+.btn-comment{
+  position: absolute;
+  right: 50px;
+}
+
+.ind_block{
+  background-image: linear-gradient(to right, #a8caba 0%, #5d4157 100%);
+  background-attachment:fixed;
+  background-repeat: no-repeat;
+  padding: 10px 10px 10px 30px;
+  border-radius: 20px;
+  margin: 20px;
+}
+
+.newheading{
+  text-align: center;
+  text-decoration: underline;
+}
